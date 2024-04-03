@@ -1,0 +1,22 @@
+.container {
+    text-align: center;
+    padding: 50px;
+    font-size: larger;
+    margin-top: 250px;
+    font-weight: 800;
+  }
+  
+  .fade {
+    opacity: 0;
+    animation: fadeInOut 3s linear infinite alternate;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
