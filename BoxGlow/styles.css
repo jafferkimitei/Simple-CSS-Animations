@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .box-shadow-glow {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 20px 10px #fff;
+  }
+  
