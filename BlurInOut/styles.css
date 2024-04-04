@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    animation: blurInOut 2s infinite alternate;
+  }
+  
+  @keyframes blurInOut {
+    0% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+    100% {
+      filter: blur(5px);
+      opacity: 0.5;
+    }
+  }
+  
