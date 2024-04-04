@@ -1,0 +1,29 @@
+body {
+    background-color: #000;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-style: preserve-3d;
+    animation: flipX 2s ease-in-out infinite;
+  }
+  
+  @keyframes flipX {
+    0%, 100% {
+      transform: translate(-50%, -50%) rotateX(0deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotateX(180deg);
+    }
+  }
+  
+  
