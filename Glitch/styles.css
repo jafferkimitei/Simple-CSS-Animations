@@ -1,0 +1,33 @@
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .glitch {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    animation: glitchEffect 1s infinite;
+  }
+  
+  @keyframes glitchEffect {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(4px);
+    }
+    50% {
+      transform: translateX(-2px);
+    }
+    75% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
