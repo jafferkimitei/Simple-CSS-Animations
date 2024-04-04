@@ -1,0 +1,28 @@
+body {
+    background-color: #000;
+    overflow: hidden;
+  }
+  
+  .shooting-star {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    animation: shooting 2s linear infinite;
+  }
+  
+  @keyframes shooting {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(calc(100vw + 50%), calc(50vh - 50%)) scale(2);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(calc(200vw + 50%), calc(50vh - 50%)) scale(1);
+    }
+  }
+  
