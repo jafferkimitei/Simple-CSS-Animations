@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-image: url('https://via.placeholder.com/150');
+    background-size: cover;
+    animation: pixelate 2s infinite alternate;
+  }
+  
+  @keyframes pixelate {
+    0% {
+      filter: blur(0px);
+    }
+    100% {
+      filter: blur(10px);
+    }
+  }
+  
